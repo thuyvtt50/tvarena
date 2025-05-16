@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face
+{
+    font-family: utm-neo-san;
+    src: url("../fonts/UTM Neo Sans Intel.ttf");
+   
+}
+@font-face
+{
+     font-family: utm-trajan;
+    src: url("../fonts/UTM Trajan Pro Bold.ttf");
+   
+}
+@font-face
+{
+     font-family: utm-viceroy;
+    src: url("../fonts/UTM ViceroyJF.ttf")
+}
+
+

@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face
+{
+    font-family: font-content;
+    src:url("../fonts/SVN-Beast.ttf")
+ 
+}
+@font-face
+{
+    font-family: font-heading;
+    src: url("../fonts/SVN-Gretoon.ttf")
+}
+@font-face
+{
+    font-family: font-subtitle;
+    src: url("../fonts/SVN-Carington.ttf")
+}

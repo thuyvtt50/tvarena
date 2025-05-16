@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Petrona&family=Quicksand:wght@300;400&display=swap');
+/* CSS Document */
+h1,h2,h3,p{ display: block}
+ body 
+      {
+         background-color: #eee;        /*-- màu nền--*/
+          color: #666;                     /* màu chữ*/
+          font-family: 'Quicksand', sans-serif;
+          font-size: 16px; 
+          margin: 0
+      }
+p{ line-height: 1.5rem}
+.logo{ display: inline}
+.ten-truong{ display: inline-block; margin-left: 20px; font-size: 40px; font-weight: bold;
+background: -webkit-linear-gradient(#036 60%, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+   h2      {          color: darkblue; font-size: 36px; margin-bottom: 0   }  
+h3{ color: #333; font-size: 20px; margin-top: 0; margin-bottom: 10px}   
+      a{ /*--- style cho text có link <a>*/
+          color: #000 ;
+          text-decoration: none /*--- bỏ gạch chân--*/
+      } 
+      a:hover /*  trang thái trỏ chuột vào link*/
+      {
+          color:#FCAF0A
+      }
+.text-center{ text-align: center}
+.subtitle {
+  font-family: 'Mea Culpa', cursive;
+    font-size: 36px; margin-top: 0; 
+}
+.subtitle a{ color:darkslategrey}
+*{box-sizing: border-box}
+/*div{ border: 1px blue solid}*/
+.container{ width: 80%; margin: auto}
+.w-25 { width: 25%;  padding: 15px}
+.w-33{ width: 33.33%; padding: 15px}
+.w-50 { width: 50%;  padding: 15px}
+.w-66{ width:66.66%; padding: 15px}
+.w-75 { width: 75%; padding: 15px}
+.row{ display: flex; flex-wrap: wrap}
+.img-100{ max-width: 100%; height: auto }
+
+.mx-auto{ margin-left: auto; margin-right: auto}
+
+
+.trang-shadow{
+    background-color: white;
+    box-shadow:0 0 5px #666;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px; margin-bottom: 20px;
+    height: 100%
+        
+}
+
+#cosoArena a{ color: tomato}
+#cosoArena a:hover{ color: #B97005}
+
+footer { background:#eee; min-height: 400px;}
+footer h3{ border-bottom: 1px solid #666; }
+footer h5, footer p{ margin: 5px}
+/*-------------- style cho menu----------------------*/
+.menu{  margin-top: 5px; display: block; }
+.menu ul {  margin: 0; padding: 0; list-style: none; border-bottom: 1px solid rgba(0,183,201,1.00)}
+.menu ul li { display: inline-block;    }
+.menu ul li a
+{  
+    background-image:radial-gradient(#036, #0ff);   
+    color: white;
+    font-size: 20px;    text-transform:uppercase;
+    padding: 10px 20px;        display: block;   
+}
+.menu ul li a:hover { 
+    background-image: radial-gradient(yellow, #550)  ;  
+    color: darkslateblue;
+}
+.menu ul ul {
+    position: absolute;
+    left: 0;    top: 100%;
+    width: 200%;    display: none
+}
+.menu ul ul li { 
+    float:none; display: block; 
+    border-bottom: 1px dotted white
+}
+.menu ul li:hover >ul { display: block}
+
+
+.input-form{ 
+    padding: 10px; width: 100%; margin-top: 10px; 
+    margin-bottom: 10px; border: 1px solid #ccc; 
+    border-radius: 5px; font-size: 16px}
+#form-dangky label{ font-weight: bold; margin: 5px 0}
+.btn-primary{ background: #00A6BB; padding: 10px 20px; font-size: 20px; border-radius: 10px; border: 1px solid #006996; color: #fff}
+.btn-primary:hover{ background-image: radial-gradient(yellow, #550)  ;  
+    color: darkslateblue;}
+footer{
+    background-color: #ddd; 
+    margin-top:50px; color: #333;
+    padding-top: 10px;
+    font-size: 14px
+}
+footer h4
+{
+    color: rgba(12,220,165,1.00);
+    font-size: 18px
+}
+
+#tuyensinh img { height: 160px; width: 100%}
+

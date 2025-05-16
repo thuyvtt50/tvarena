@@ -1,0 +1,40 @@
+@font-face {
+      font-family: font-subtitle;
+    
+    src: url('SVN-Carington.eot');
+    src: url('SVN-Carington.eot?#iefix') format('embedded-opentype'),
+        url('SVN-Carington.woff2') format('woff2'),
+        url('SVN-Carington.woff') format('woff'),
+        url('SVN-Carington.ttf') format('truetype'),
+        url('SVN-Carington.svg#SVN-Carington') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+  font-family: font-content;
+    src: url('SVN-Beast.eot');
+    src: url('SVN-Beast.eot?#iefix') format('embedded-opentype'),
+        url('SVN-Beast.woff2') format('woff2'),
+        url('SVN-Beast.woff') format('woff'),
+        url('SVN-Beast.ttf') format('truetype'),
+        url('SVN-Beast.svg#SVN-Beast') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+   font-family: font-heading;
+    src: url('SVN-Gretoon.eot');
+    src: url('SVN-Gretoon.eot?#iefix') format('embedded-opentype'),
+        url('SVN-Gretoon.woff2') format('woff2'),
+        url('SVN-Gretoon.woff') format('woff'),
+        url('SVN-Gretoon.ttf') format('truetype'),
+        url('SVN-Gretoon.svg#SVN-Gretoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
